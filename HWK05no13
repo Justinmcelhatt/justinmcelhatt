@@ -1,0 +1,43 @@
+from turtle import *
+space = Screen()
+#Creating Turtles
+alex = Turtle()
+bob = Turtle()
+todd = Turtle()
+#Setting Colors
+alex.color('red')
+bob.color('blue')
+todd.color('green')
+#Alex Equilateral Triangle
+alex.forward(150)
+alex.left(120)
+alex.forward(150)
+alex.left(120)
+alex.forward(150)
+#Penup Bob + Todd
+bob.penup()
+todd.penup()
+#Creating Bob Triangle
+bob.right(90)
+bob.forward(30)
+bob.left(30)
+bob.pendown()
+bob.forward(150)
+bob.left(120)
+bob.forward(150)
+bob.left(120)
+bob.forward(150)
+#Creating Todd Triangle
+todd.right(90)
+todd.forward(15)
+todd.right(90)
+todd.forward(30)
+todd.right(90)
+todd.pendown()
+todd.forward(75)
+todd.left(120)
+todd.forward(150)
+todd.left(120)
+todd.forward(150)
+todd.left(120)
+todd.forward(75)
